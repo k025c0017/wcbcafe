@@ -47,6 +47,38 @@ img{
     padding: .75rem 1.5rem;
     transition: .5s;
 }
+
+@media (min-width:800px) {
+    .page-title{
+        font-size:5rem;
+    }
+    .heding-large{
+        font-size:4rem;
+    }
+    .page-header{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1.5rem;
+    }
+    .main-nav{
+        font-size:2rem;
+    }
+    .cover-home{
+        background-image: url(../images/cover-home-s.webp);
+    }
+    .about{
+        margin: 4rem auto 0;
+    }
+    .page-footer{
+        background-image: url(../images/footer-s.webp);
+        padding-top: 12rem;
+    }
+    .info th{
+        padding-left: 2.5rem;
+    }
+
+    
+}
 .btn:hover{
     background-color: #0090aa;
 }
@@ -116,35 +148,4 @@ img{
     padding: 2rem 0;
     margin-top: 6rem;
     color:#ffff;
-}
-@media (min-width:800px) {
-    .page-title{
-        font-size:5rem;
-    }
-    .heding-large{
-        font-size:4rem;
-    }
-    .page-header{
-        display: flex;
-        justify-content: space-between;
-        padding-top: 1.5rem;
-    }
-    .main-nav{
-        font-size:2rem;
-    }
-    .cover-home{
-        background-image: url(../images/cover-home-s.webp);
-    }
-    .about{
-        margin: 4rem auto 0;
-    }
-    .page-footer{
-        background-image: url(../images/footer-s.webp);
-        padding-top: 12rem;
-    }
-    .info th{
-        padding-left: 2.5rem;
-    }
-
-    
 }
