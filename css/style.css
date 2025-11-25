@@ -107,7 +107,7 @@ img{
     height: 800px;
 }
 .cover-home{
-    background-image: url(../images/cover-home-1.webp);
+    background-image: url(../images/cover-home-l.webp);
 }
 .about{
     max-width: 736px;
@@ -118,7 +118,7 @@ img{
     margin-bottom: 3rem;
 }
 .page-footer{
-    background-image: url(../images/footer-1.webp);
+    background-image: url(../images/footer-l.webp);
     background-size: cover;
     background-position:center ;
     padding-top: 12rem;
